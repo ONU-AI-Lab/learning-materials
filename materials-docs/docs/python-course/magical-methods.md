@@ -1,4 +1,8 @@
-## Магический Python
+---
+id: magical-methods
+title: Магический Python
+sidebar_label: Магический Python
+---
 
 ![](python-images/magic.gif)
 

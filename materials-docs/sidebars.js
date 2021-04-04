@@ -1,6 +1,7 @@
 module.exports = {
   someSidebar: {
-    "Basic Python": ['introduction-to-python',
+      Python: [
+          "introduction-to-python",
           "python-course/get-started",
           "python-course/first-program",
           "python-course/data-types",
@@ -11,7 +12,13 @@ module.exports = {
           "python-course/list-comprehension",
           "python-course/functions-in-python",
         ],
-        "Классы": ["python-course/classes-basic"],
-    Features: ['mdx'],
+      Classes: [
+          "python-course/classes-basic",
+          "python-course/magical-methods"
+      ],
+      "Advanced Python": [
+          "python-course/iterators"
+      ],
+      // Features: ['mdx'],
   },
 };
