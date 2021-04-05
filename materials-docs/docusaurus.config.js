@@ -1,18 +1,19 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Elliscope Labs',
+  tagline: 'Learning page',
+  url: 'https://elliscope.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Elliscope Labs', // Usually your GitHub org/user name.
+  projectName: 'materials', // Usually your repo name.
+  themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Main Page',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Site Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -22,12 +23,16 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          to: 'blog',
+          label: 'Blog',
+          position: 'left'
         },
+        // {
+        //   href: 'https://github.com/',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -40,42 +45,38 @@ module.exports = {
               label: 'Style Guide',
               to: 'docs/',
             },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+            // {
+            //   label: 'Second Doc',
+            //   to: 'docs/doc2/',
+            // },
           ],
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/',
             },
           ],
         },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     {
+        //       label: 'Blog',
+        //       to: 'blog',
+        //     },
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com/',
+        //     },
+        //   ],
+        // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
