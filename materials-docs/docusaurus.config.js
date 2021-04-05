@@ -8,7 +8,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'Elliscope Labs', // Usually your GitHub org/user name.
   projectName: 'materials', // Usually your repo name.
-  themes: ['@docusaurus/theme-live-codeblock'],
+  // themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     navbar: {
       title: 'Main Page',
